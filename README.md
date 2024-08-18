@@ -6,8 +6,8 @@
 
 ### Create .env file
 
-Create .env file in root directory: `/frontend`
-Add variable `REACT_APP_API_URL` with backend api url.
+Create .env file in root directory: `/frontend`\
+Add variable `REACT_APP_API_URL=<your_backend_api_url>`.
 
 ### `npm start`
 
