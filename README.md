@@ -18,8 +18,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### Create .env file
 
-Create .env file in root directory: `/backend`
-Add variables: `MONGODB_URI` and `PORT` with your db url and port on which you want to run your server.
+Create .env file in root directory: `/backend`\
+Add variables: `MONGODB_URI=<your_mongodb_url>` and `PORT=<your-server-port>`.
 
 ### `node server.js`
 
