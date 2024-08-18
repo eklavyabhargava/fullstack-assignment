@@ -1,6 +1,6 @@
 ## React Assignment
 
-1. How can you implement shared functionality across a component tree?
+1. How can you implement shared functionality across a component tree?\
 Answer: We can implement shared functionality across a component tree in several way, like, by using Context Api, creating custom hook, by using state management libraries like Redux, or by wrapping component in higher order component.
 
 2. Why is the `useState` hook appropriate for handling state in a complex component?
