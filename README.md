@@ -1,27 +1,26 @@
-# Help Center API Assignment
+# Follow below steps to setup and run the project:
 
-## Instructions
+## Use node version 20 or above
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/iAmritMalviya/fullstack-assignment
-   cd fullstack-assignment
-   ```
+## Steps to setup and run frontend on local machine:
 
-2. **Frontend:**
-   - Create a React app in the `frontend` folder.
-   - Follow the instructions in `frontend.md` to complete the frontend.
+### Create .env file
 
-3. **Backend:**
-   - Create a Node.js app in the `backend` folder.
-   - Follow the `backend.md` instructions to complete the backend.
+Create .env file in root directory: `/frontend`
+Add variable `REACT_APP_API_URL` with backend api url.
 
-4. **Push Your Work:**
-   - Push both the frontend and backend apps to the same repository.
-   - Make sure the repository is public.
+### `npm start`
 
-5. **Submit Your Work:**
-   - Paste the GitHub repository link in the Google form you received after pushing your code.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
+## Steps to setup and run backend on local machine:
 
+### Create .env file
+
+Create .env file in root directory: `/backend`
+Add variables: `MONGODB_URI` and `PORT` with your db url and port on which you want to run your server.
+
+### `node server.js`
+
+To run server on your local machine, enter command `node server.js`
